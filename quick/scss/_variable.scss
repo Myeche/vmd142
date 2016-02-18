@@ -18,10 +18,10 @@ $link-hover-decoration: none; // global link decoration
 $font-family-base: 'Lato', sans-serif; // enter font stack for Lato web font
 $font-family-headings:'Montserrat', sans-serif; // enter font stack for Montserrat web font
 $font-size-base: 14px; // same as Bootstrap default
-$font-size-h1: 100px; // 4x base 
-$font-size-h2: 35px; // 2x base
-$font-size-h3: 25px; // 1.3x base
-$font-size-h4: 10px; // 1x base (same size)
+$font-size-h1: 4em   ; // 4x base 
+$font-size-h2: 2em; // 2x base
+$font-size-h3: 1.3em; // 1.3x base
+$font-size-h4: 1em; // 1x base (same size)
 $line-height-base: 1.428571429; // same as Bootstrap default
 $headings-font-weight: 700;
 $headings-line-height: 1.1;
