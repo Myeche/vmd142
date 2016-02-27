@@ -43,6 +43,7 @@ padding: 40px 0;
 
 .color-reverse,
 .color-reverse h2,
+.color-reverse h3,
 .color-reverse .icon {
 	color: $white;
 }
@@ -100,7 +101,15 @@ padding: 40px 0;
 
 .services-col {
 	color: $blue;
+    text-align: center;
 }
+
+@media (min-width: 768px) {
+    .services-col {
+        text-align: left;
+    }
+}
+
 
 .services-col h3 {
 	color: $blue;
@@ -141,4 +150,66 @@ padding: 40px 0;
     margin-bottom: 10px;
 }
 
+.author {
+    color: $blue;
+    font-size: 1.1em; // 1.1x base font size
+}
 
+.item-img-wrap{
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+
+}
+.item-img-wrap img{
+    transition:all 200ms linear; // use prefix mixin for this CSS3 property
+}
+.item-img-overlay{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.item-img-overlay span{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../img/plus.png) no-repeat center center rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: opacity 250ms linear; // use prefix mixin for this CSS3 property
+}
+
+.item-img-wrap:hover .item-img-overlay span{
+    opacity: 1;
+}
+.item-img-wrap:hover img{
+    transform: scale(1.1); // use prefix mixin for this CSS3 property
+}
+
+ .about-col, 
+.team-col,
+.services-col,
+.portfolio-col,
+.facts-col,
+.blog-col{
+    margin-bottom: 40px;
+}
+
+.blog-col span
+{
+    margin-bottom: 40px;
+}
+
+.blog-col span {
+	color: $gray;
+	font-size: 0.9em; // .9x base font size
+display: inline-block;
+	margin-bottom: 20px;
+}
+
+#facts {
+    background-color: $gray-darker;
+}
