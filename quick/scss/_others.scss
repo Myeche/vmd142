@@ -213,3 +213,27 @@ display: inline-block;
 #facts {
     background-color: $gray-darker;
 }
+
+.scrollToTop {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center; 
+    font-weight: bold;
+    color: $white;
+    font-size: 20px;
+    text-decoration: none;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 999999;
+    display: none;
+    background: $blue;
+    opacity: 0.5;
+	@include prefix(transform, all 0.3s, webkit moz);
+}
+.scrollToTop:hover {
+    text-decoration:none;
+    opacity: 1;
+    color: $white;
+}
