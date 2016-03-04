@@ -1,56 +1,54 @@
-
 #home {
-	background-color: $gray-dark;
-	padding: 40px 0;
+    background-color: $gray-dark;
+    padding: 40px 0;
 }
 
 #cta-1 {
-background-color: $gray-lighter;
-padding: 40px 0;
+    background-color: $gray-lighter;
+    padding: 40px 0;
 }
 
 #testimonials {
-	background-color: $gray-dark;
+    background-color: $gray-dark;
 }
 
 #cta-2 {
-	background-color: $blue;
-	padding: 40px 0;
+    background-color: $blue;
+    padding: 40px 0;
 }
 
 #services {
-	background-color: $gray-dark;
+    background-color: $gray-dark;
 }
 
 #cta-3 {
-	background-color: $gray-dark;
-	padding: 40px 0;
+    background-color: $gray-dark;
+    padding: 40px 0;
 }
 
 #footer {
-	background-color: $gray-dark;
+    background-color: $gray-dark;
 }
 
-
 .section-padding {
-	padding-top: 60px;
-	padding-bottom: 50px;
+    padding-top: 60px;
+    padding-bottom: 50px;
 }
 
 .section-heading {
-	margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 .color-reverse,
 .color-reverse h2,
 .color-reverse h3,
 .color-reverse .icon {
-	color: $white;
+    color: $white;
 }
 
 .color-reverse .icon:before,
 .color-reverse .icon:after {
-	border-bottom-color: $white;
+    border-bottom-color: $white;
 }
 
 .icon {
@@ -60,7 +58,7 @@ padding: 40px 0;
     width: 130px;
     margin: 0 auto;
     position: relative;
-	color: $blue;
+    color: $blue;
 }
 
 .icon:before,
@@ -82,25 +80,25 @@ padding: 40px 0;
 }
 
 .icon-bg {
-	color: $white;
+    color: $white;
 }
 
 .icon-bg:before,
 .icon-bg:after {
-	border-bottom-color: $white;
+    border-bottom-color: $white;
 }
 
 .about-col .fa {
-	width: 90px;
-	height: 90px;
-	line-height: 90px;
-	color: $gray;
-	border-radius: 50%;
-	background-color: $gray-lighter;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    color: $gray;
+    border-radius: 50%;
+    background-color: $gray-lighter;
 }
 
 .services-col {
-	color: $blue;
+    color: $blue;
     text-align: center;
 }
 
@@ -110,20 +108,19 @@ padding: 40px 0;
     }
 }
 
-
 .services-col h3 {
-	color: $blue;
-	margin-top: 0;
-	font-weight: 200;
-	letter-spacing: 1px;
-	font-size: 1.75em;
+    color: $blue;
+    margin-top: 0;
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-size: 1.75em;
 }
 
 .services-col p {
-	color: $gray;
-	letter-spacing: 1px;
-	font-weight: 200;
-	line-height: 2;
+    color: $gray;
+    letter-spacing: 1px;
+    font-weight: 200;
+    line-height: 2;
 }
 
 .services-col .fa {
@@ -136,6 +133,7 @@ padding: 40px 0;
     border-radius: 35px;
     margin-bottom: 10px;
 }
+
 .contact-hours .fa {
     color: $blue;
 }
@@ -155,23 +153,25 @@ padding: 40px 0;
     font-size: 1.1em; // 1.1x base font size
 }
 
-.item-img-wrap{
+.item-img-wrap {
     position: relative;
     text-align: center;
     overflow: hidden;
+}
 
+.item-img-wrap img {
+    transition: all 200ms linear; // use prefix mixin for this CSS3 property
 }
-.item-img-wrap img{
-    transition:all 200ms linear; // use prefix mixin for this CSS3 property
-}
-.item-img-overlay{
+
+.item-img-overlay {
     position: absolute;
-    width:100%;
+    width: 100%;
     height: 100%;
     left: 0;
     top: 0;
 }
-.item-img-overlay span{
+
+.item-img-overlay span {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -182,32 +182,32 @@ padding: 40px 0;
     transition: opacity 250ms linear; // use prefix mixin for this CSS3 property
 }
 
-.item-img-wrap:hover .item-img-overlay span{
+.item-img-wrap:hover .item-img-overlay span {
     opacity: 1;
 }
-.item-img-wrap:hover img{
+
+.item-img-wrap:hover img {
     transform: scale(1.1); // use prefix mixin for this CSS3 property
 }
 
- .about-col, 
+.about-col,
 .team-col,
 .services-col,
 .portfolio-col,
 .facts-col,
-.blog-col{
-    margin-bottom: 40px;
-}
-
-.blog-col span
-{
+.blog-col {
     margin-bottom: 40px;
 }
 
 .blog-col span {
-	color: $gray;
-	font-size: 0.9em; // .9x base font size
-display: inline-block;
-	margin-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.blog-col span {
+    color: $gray;
+    font-size: 0.9em; // .9x base font size
+    display: inline-block;
+    margin-bottom: 20px;
 }
 
 #facts {
@@ -218,7 +218,7 @@ display: inline-block;
     width: 40px;
     height: 40px;
     line-height: 40px;
-    text-align: center; 
+    text-align: center;
     font-weight: bold;
     color: $white;
     font-size: 20px;
@@ -230,13 +230,15 @@ display: inline-block;
     display: none;
     background: $blue;
     opacity: 0.5;
-	@include prefix(transform, all 0.3s, webkit moz);
+    @include prefix(transform, all 0.3s, webkit moz);
 }
+
 .scrollToTop:hover {
-    text-decoration:none;
+    text-decoration: none;
     opacity: 1;
     color: $white;
 }
+
 .parallax {
     background-position: 0 0;
     background-repeat: no-repeat;
@@ -245,6 +247,7 @@ display: inline-block;
     background-size: cover;
     background-attachment: fixed;
 }
+
 .parallax-overlay {
     position: absolute;
     left: 0;
@@ -253,24 +256,27 @@ display: inline-block;
     height: 100%;
     background-image: url(../img/pattern.png);
     background-repeat: repeat;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0, 0, 0, 0.3);
 }
+
 #home {
     background-image: url(../img/showcase-1.jpg);
     padding: 160px 0;
     width: 100%;
     height: 100%;
+}
 
 #testimonials {
-    background:url(../img/showcase-3.jpg);
+    background: url(../img/showcase-3.jpg);
     padding: 80px 0;
 }
+
 #services {
-    background:url(../img/showcase-2.jpg);
+    background: url(../img/showcase-2.jpg);
     padding: 80px 0;
 }
 
 #facts {
-    background:url(../img/showcase-5.jpg);
+    background: url(../img/showcase-5.jpg);
     padding: 80px 0;
 }

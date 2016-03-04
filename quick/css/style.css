@@ -1,62 +1,524 @@
-/*
-Syntax error: Invalid CSS after "}": expected "}", was ""
-        on line 277 of D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss
-        from line 8 of D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/style.scss
+/* line 1, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_scaffolding.scss */
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  line-height: 1;
+  color: #333333;
+  background-color: white;
+}
 
-Backtrace:
-D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss:277
-D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/style.scss:8
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:1129:in `expected'
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:1066:in `expected'
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:1061:in `tok!'
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:519:in `block'
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:512:in `ruleset'
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:536:in `block_child'
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:529:in `block_contents'
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:70:in `stylesheet'
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/scss/parser.rb:27:in `parse'
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/engine.rb:342:in `_to_tree'
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/engine.rb:272:in `to_tree'
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:222:in `visit_import'
-org/jruby/RubyKernel.java:2096:in `send'
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:98:in `visit'
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-org/jruby/RubyArray.java:2336:in `collect'
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:107:in `visit_children'
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:119:in `with_environment'
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:106:in `visit_children'
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:126:in `visit_root'
-org/jruby/RubyKernel.java:2096:in `send'
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:98:in `visit'
-org/jruby/RubyKernel.java:2096:in `send'
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:7:in `visit'
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/tree/root_node.rb:20:in `render'
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/engine.rb:315:in `_render'
-C:/Program Files (x86)/Scout/vendor/gems/gems/sass-3.2.1/lib/sass/../sass/engine.rb:262:in `render'
-C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `compile'
-C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `compile'
-C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
-C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
-C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
-C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `run'
-org/jruby/RubyArray.java:1603:in `each'
-C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `run'
-C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
-C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
-C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:68:in `perform'
-C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
-C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
-C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-C:/Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-C:\Program Files (x86)\Scout\bin\compass:12:in `(root)'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 277 of D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss\A         from line 8 of D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/style.scss"; }
+/* line 9, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_scaffolding.scss */
+a {
+  color: #333333;
+}
+/* line 12, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_scaffolding.scss */
+a:hover, a:focus {
+  color: #333333;
+  text-decoration: none;
+}
+
+/* line 18, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_scaffolding.scss */
+html,
+body {
+  height: 100%;
+}
+
+/* line 4, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_typography.scss */
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 1;
+  color: #333333;
+}
+
+/* line 12, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_typography.scss */
+h1,
+h2 {
+  text-transform: uppercase;
+}
+
+/* line 16, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_typography.scss */
+h1 {
+  font-size: 4em;
+}
+
+/* line 20, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_typography.scss */
+h2 {
+  font-size: 2em;
+}
+
+/* line 24, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_typography.scss */
+h3 {
+  font-size: 1em;
+}
+
+/* line 28, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_typography.scss */
+h4 {
+  font-size: 1em;
+}
+
+/* line 33, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_typography.scss */
+.home-text {
+  color: white;
+  text-transform: uppercase;
+  padding: 10px 0;
+  border-bottom: 3px solid rgba(255, 255, 255, 0);
+  margin: 20px 0;
+  letter-spacing: 1px;
+  font-weight: 200;
+}
+
+/* line 43, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_typography.scss */
+.home-h1 {
+  color: #25cbf5;
+  font-size: 2.5em;
+  font-weight: 200;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* line 51, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_typography.scss */
+.home-h1 > span {
+  color: white;
+}
+
+/* line 55, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_typography.scss */
+.lead {
+  letter-spacing: 1px;
+  margin-bottom: 60px;
+}
+
+@media (min-width: 768px) {
+  /* line 61, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_typography.scss */
+  .home-h1 {
+    font-size: 4.5em;
+  }
+}
+/* line 1, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_navbar.scss */
+.navbar-default {
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+
+/* line 7, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_navbar.scss */
+.navbar-default .navbar-brand {
+  font-weight: 700;
+  color: #333333;
+  font-size: 1.5em;
+}
+
+/* line 13, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_navbar.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #333333;
+}
+/* line 16, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_navbar.scss */
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #25cbf5;
+}
+
+/* line 1, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_button.scss */
+.btn-theme, .btn-dark, .btn-cta, .btn-cta-o {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  font-weight: 200;
+  text-transform: uppercase;
+  border-radius: 0;
+  letter-spacing: 1px;
+  padding: 15px 30px;
+  -webkit-transition: all 200ms ease-in;
+  -moz-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+
+/* line 12, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_button.scss */
+.btn-dark {
+  border: 1px solid rgba(255, 255, 255, 0);
+  background: rgba(0, 0, 0, 0);
+  color: #777777;
+}
+/* line 19, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_button.scss */
+.btn-dark:hover, .btn-dark:focus {
+  background: #000;
+  color: white;
+}
+
+/* line 25, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_button.scss */
+.btn-cta {
+  background-color: #25cbf5;
+  color: white;
+}
+/* line 31, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_button.scss */
+.btn-cta:hover, .btn-cta:focus {
+  background-color: #0ab2dd;
+  color: white;
+}
+
+/* line 37, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_button.scss */
+.btn-cta-o {
+  color: white;
+  border: 1px solid white;
+}
+/* line 43, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_button.scss */
+.btn-cta-o:hover, .btn-cta-o:focus {
+  background-color: white;
+  color: #353739;
+}
+
+/* line 1, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_form.scss */
+.form-control {
+  border-radius: 0;
+  margin-bottom: 30px;
+}
+
+/* line 6, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_form.scss */
+label {
+  font-weight: 20px;
+}
+
+/* line 10, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_form.scss */
+.form-control {
+  border-radius: 0;
+  margin-bottom: 30px;
+  font-size: 12px;
+  color: #777777;
+  background: white;
+  transition: all 200ms ease-in;
+}
+
+/* line 19, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_form.scss */
+.form-control:focus {
+  background: #f4f4f2;
+  border-color: #777777;
+}
+
+/* line 1, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+#home {
+  background-color: #333333;
+  padding: 40px 0;
+}
+
+/* line 6, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+#cta-1 {
+  background-color: #f4f4f2;
+  padding: 40px 0;
+}
+
+/* line 11, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+#testimonials {
+  background-color: #333333;
+}
+
+/* line 15, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+#cta-2 {
+  background-color: #25cbf5;
+  padding: 40px 0;
+}
+
+/* line 20, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+#services {
+  background-color: #333333;
+}
+
+/* line 24, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+#cta-3 {
+  background-color: #333333;
+  padding: 40px 0;
+}
+
+/* line 29, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+#footer {
+  background-color: #333333;
+}
+
+/* line 33, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+.section-padding {
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+/* line 38, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+.section-heading {
+  margin-bottom: 40px;
+}
+
+/* line 45, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+.color-reverse,
+.color-reverse h2,
+.color-reverse h3,
+.color-reverse .icon {
+  color: white;
+}
+
+/* line 50, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+.color-reverse .icon:before,
+.color-reverse .icon:after {
+  border-bottom-color: white;
+}
+
+/* line 54, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+.icon {
+  display: inline-block;
+  font-size: 1.3em;
+  line-height: 1;
+  width: 130px;
+  margin: 0 auto;
+  position: relative;
+  color: #25cbf5;
+}
+
+/* line 65, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+.icon:before,
+.icon:after {
+  display: inline-block;
+  content: "";
+  border-bottom: 1px solid #25cbf5;
+  position: absolute;
+  top: 10px;
+  width: 50px;
+}
+
+/* line 74, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+.icon:before {
+  left: 0;
+}
+
+/* line 78, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+.icon:after {
+  right: 0;
+}
+
+/* line 82, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+.icon-bg {
+  color: white;
+}
+
+/* line 87, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+.icon-bg:before,
+.icon-bg:after {
+  border-bottom-color: white;
+}
+
+/* line 91, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+.about-col .fa {
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  color: #777777;
+  border-radius: 50%;
+  background-color: #f4f4f2;
+}
+
+/* line 100, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+.services-col {
+  color: #25cbf5;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  /* line 106, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+  .services-col {
+    text-align: left;
+  }
+}
+/* line 111, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+.services-col h3 {
+  color: #25cbf5;
+  margin-top: 0;
+  font-weight: 200;
+  letter-spacing: 1px;
+  font-size: 1.75em;
+}
+
+/* line 119, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+.services-col p {
+  color: #777777;
+  letter-spacing: 1px;
+  font-weight: 200;
+  line-height: 2;
+}
+
+/* line 126, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+.services-col .fa {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  color: white;
+  background-color: #25cbf5;
+  border-radius: 35px;
+  margin-bottom: 10px;
+}
+
+/* line 137, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+.contact-hours .fa {
+  color: #25cbf5;
+}
+
+/* line 141, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+.social-channels .fa {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #777777;
+  background-color: #f4f4f2;
+  margin-bottom: 10px;
+}
+
+/* line 151, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+.author {
+  color: #25cbf5;
+  font-size: 1.1em;
+}
+
+/* line 156, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+.item-img-wrap {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* line 162, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+.item-img-wrap img {
+  transition: all 200ms linear;
+}
+
+/* line 166, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+.item-img-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+/* line 174, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+.item-img-overlay span {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(../img/plus.png) no-repeat center center rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition: opacity 250ms linear;
+}
+
+/* line 185, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+.item-img-wrap:hover .item-img-overlay span {
+  opacity: 1;
+}
+
+/* line 189, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+.item-img-wrap:hover img {
+  transform: scale(1.1);
+}
+
+/* line 198, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+.about-col,
+.team-col,
+.services-col,
+.portfolio-col,
+.facts-col,
+.blog-col {
+  margin-bottom: 40px;
+}
+
+/* line 202, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+.blog-col span {
+  margin-bottom: 40px;
+}
+
+/* line 206, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+.blog-col span {
+  color: #777777;
+  font-size: 0.9em;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+/* line 213, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+#facts {
+  background-color: #353739;
+}
+
+/* line 217, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+.scrollToTop {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  z-index: 999999;
+  display: none;
+  background: #25cbf5;
+  opacity: 0.5;
+  -webkit-transform: all 0.3s;
+  -moz-transform: all 0.3s;
+  transform: all 0.3s;
+}
+
+/* line 236, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+.scrollToTop:hover {
+  text-decoration: none;
+  opacity: 1;
+  color: white;
+}
+
+/* line 242, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+.parallax {
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* line 251, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+.parallax-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/pattern.png);
+  background-repeat: repeat;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* line 262, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+#home {
+  background-image: url(../img/showcase-1.jpg);
+  padding: 160px 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 269, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+#testimonials {
+  background: url(../img/showcase-3.jpg);
+  padding: 80px 0;
+}
+
+/* line 274, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+#services {
+  background: url(../img/showcase-2.jpg);
+  padding: 80px 0;
+}
+
+/* line 279, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+#facts {
+  background: url(../img/showcase-5.jpg);
+  padding: 80px 0;
+}
