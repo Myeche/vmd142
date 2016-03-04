@@ -39,3 +39,7 @@ $(document).ready(function(){
 	});
 	
 });
+// parallax
+$(function() {
+    $.stellar();
+});
