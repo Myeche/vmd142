@@ -52,3 +52,13 @@ $(window).load(function() {
         controlNav: false
     });
 });
+// owl carousel
+$(document).ready(function() {
+    $("#testi-carousel").owlCarousel({
+        items: 1,
+		loop:true,
+		autoplay:true,
+		autoplayTimeout:5000,
+		autoplayHoverPause:true
+    });
+});
