@@ -522,3 +522,8 @@ label {
   background: url(../img/showcase-5.jpg);
   padding: 80px 0;
 }
+
+/* line 283, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+.main-flex-slider {
+  overflow: hidden;
+}
