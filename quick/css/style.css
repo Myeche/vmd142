@@ -310,21 +310,29 @@ label {
   color: #777777;
   border-radius: 50%;
   background-color: #f4f4f2;
+  transition: 0.7s ease-in-out;
 }
 
-/* line 100, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+/* line 101, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+.about-col:hover .fa {
+  background-color: #25cbf5;
+  color: white;
+  transform: rotateY(360deg);
+}
+
+/* line 107, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
 .services-col {
   color: #25cbf5;
   text-align: center;
 }
 
 @media (min-width: 768px) {
-  /* line 106, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+  /* line 113, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
   .services-col {
     text-align: left;
   }
 }
-/* line 111, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+/* line 118, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
 .services-col h3 {
   color: #25cbf5;
   margin-top: 0;
@@ -333,7 +341,7 @@ label {
   font-size: 1.75em;
 }
 
-/* line 119, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+/* line 126, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
 .services-col p {
   color: #777777;
   letter-spacing: 1px;
@@ -341,7 +349,7 @@ label {
   line-height: 2;
 }
 
-/* line 126, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+/* line 133, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
 .services-col .fa {
   width: 70px;
   height: 70px;
@@ -351,14 +359,22 @@ label {
   background-color: #25cbf5;
   border-radius: 35px;
   margin-bottom: 10px;
+  transition: 0.7s ease-in-out;
 }
 
-/* line 137, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+/* line 145, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+.services-col:hover .fa {
+  background-color: #25cbf5;
+  color: white;
+  transform: rotateY(360deg);
+}
+
+/* line 152, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
 .contact-hours .fa {
   color: #25cbf5;
 }
 
-/* line 141, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+/* line 156, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
 .social-channels .fa {
   width: 40px;
   height: 40px;
@@ -369,25 +385,25 @@ label {
   margin-bottom: 10px;
 }
 
-/* line 151, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+/* line 166, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
 .author {
   color: #25cbf5;
   font-size: 1.1em;
 }
 
-/* line 156, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+/* line 171, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
 .item-img-wrap {
   position: relative;
   text-align: center;
   overflow: hidden;
 }
 
-/* line 162, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+/* line 177, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
 .item-img-wrap img {
   transition: all 200ms linear;
 }
 
-/* line 166, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+/* line 181, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
 .item-img-overlay {
   position: absolute;
   width: 100%;
@@ -396,7 +412,7 @@ label {
   top: 0;
 }
 
-/* line 174, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+/* line 189, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
 .item-img-overlay span {
   width: 100%;
   height: 100%;
@@ -408,17 +424,17 @@ label {
   transition: opacity 250ms linear;
 }
 
-/* line 185, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+/* line 200, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
 .item-img-wrap:hover .item-img-overlay span {
   opacity: 1;
 }
 
-/* line 189, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+/* line 204, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
 .item-img-wrap:hover img {
   transform: scale(1.1);
 }
 
-/* line 198, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+/* line 213, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
 .about-col,
 .team-col,
 .services-col,
@@ -428,12 +444,12 @@ label {
   margin-bottom: 40px;
 }
 
-/* line 202, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+/* line 217, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
 .blog-col span {
   margin-bottom: 40px;
 }
 
-/* line 206, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+/* line 221, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
 .blog-col span {
   color: #777777;
   font-size: 0.9em;
@@ -441,12 +457,12 @@ label {
   margin-bottom: 20px;
 }
 
-/* line 213, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+/* line 228, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
 #facts {
   background-color: #353739;
 }
 
-/* line 217, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+/* line 232, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
 .scrollToTop {
   width: 40px;
   height: 40px;
@@ -468,14 +484,14 @@ label {
   transform: all 0.3s;
 }
 
-/* line 236, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+/* line 251, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
 .scrollToTop:hover {
   text-decoration: none;
   opacity: 1;
   color: white;
 }
 
-/* line 242, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+/* line 257, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
 .parallax {
   background-position: 0 0;
   background-repeat: no-repeat;
@@ -485,7 +501,7 @@ label {
   background-attachment: fixed;
 }
 
-/* line 251, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+/* line 266, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
 .parallax-overlay {
   position: absolute;
   left: 0;
@@ -497,7 +513,7 @@ label {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-/* line 262, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+/* line 277, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
 #home {
   background-image: url(../img/showcase-1.jpg);
   padding: 160px 0;
@@ -505,25 +521,25 @@ label {
   height: 100%;
 }
 
-/* line 269, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+/* line 284, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
 #testimonials {
   background: url(../img/showcase-3.jpg);
   padding: 80px 0;
 }
 
-/* line 274, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+/* line 289, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
 #services {
   background: url(../img/showcase-2.jpg);
   padding: 80px 0;
 }
 
-/* line 279, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+/* line 294, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
 #facts {
   background: url(../img/showcase-5.jpg);
   padding: 80px 0;
 }
 
-/* line 283, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
+/* line 298, D:/Melanie/Ccsf/S4/web3/vmd142/quick/scss/_others.scss */
 .main-flex-slider {
   overflow: hidden;
 }
